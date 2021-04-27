@@ -2,6 +2,8 @@ package _04_spot_the_error;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class FixTheRandom {
 
 	// This program is supposed to get a random number between 5 and 10 and print a different message for each number.
@@ -15,17 +17,17 @@ public class FixTheRandom {
 		int numnber = random.nextInt(5);
 		
 		if (numnber == 5) {
-			System.out.println("FIVE");
+			JOptionPane.showMessageDialog(null,"FIVE");
 		} else if (numnber == 6) {
-			System.out.println("SIX");
+			JOptionPane.showMessageDialog(null, "SIX");
 		} else if (numnber == 7) {
-			System.out.println("SEVEN");
+			JOptionPane.showMessageDialog(null,"SEVEN");
 		} else if (numnber == 8) {
-			System.out.println("EIGHT");
+			JOptionPane.showMessageDialog(null,"EIGHT");
 		} else if (numnber == 9) {
-			System.out.println("NINE");
+			JOptionPane.showMessageDialog(null,"NINE");
 		} else if (numnber == 10) {
-			System.out.println("TEN");
+			JOptionPane.showMessageDialog(null,"TEN");
 		}
 	}
 	
